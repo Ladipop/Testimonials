@@ -250,7 +250,7 @@ body {
   }
 
   .sub-container {
-    grid-template-rows: 355px 219px 222px 335px 400px;
+    grid-template-rows: 355px 219px 222px 360px 400px;
     grid-template-columns: repeat(1, 1fr);
     width: 300px;
         gap: 1.4rem;
