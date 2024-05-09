@@ -250,12 +250,17 @@ body {
   }
 
   .sub-container {
-    grid-template-rows: 355px 219px 222px 335px 438px;
+    grid-template-rows: 355px 219px 222px 335px 400px;
     grid-template-columns: repeat(1, 1fr);
     width: 300px;
+        gap: 1.4rem;
   }
   .card {
     min-height: 200px;
+  }
+  .card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
   }
   .card-1 {
     grid-column: 1 / 2;
@@ -277,6 +282,8 @@ body {
   .card-4 {
     grid-column: 1/2;
     grid-row: 4/5;
+        margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
   }
 
   .card-5 {
